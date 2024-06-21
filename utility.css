@@ -1,0 +1,18 @@
+.border{
+  border: 2px solid red;
+}
+.size{
+  width: 22px;
+
+}
+.flex{
+  display: flex;
+}
+.imagewidth{
+  width:11vw;
+  border-radius: 8px;
+ 
+}
+.invert{
+  filter: invert(1);
+}
