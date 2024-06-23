@@ -8,7 +8,7 @@ async function getsongs(folder) {
   //console.log("getfunc")
   //console.log(folder)
   currfolder=folder
-  let a = await fetch(`http://127.0.0.1:5500/songs/${folder}`);
+  let a = await fetch(`https://github.com/pathakshivansh64/spotifyUIclone/tree/main/songs/${folder}`);
   let response = await a.text();
   //console.log(response)
   let element = document.createElement("div");
